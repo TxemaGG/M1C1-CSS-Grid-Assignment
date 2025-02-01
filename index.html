@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>M1C1 CSS Grid Assignment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0f3793b933.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+
+    <style>
+        .gridOne {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .parrafo2 p {
+            color: #0079ff;
+        }
+
+        .gridTwo {
+            display: grid;
+            grid-template-columns: 1fr 1fr 2fr;
+        }
+
+        .texto1 p {
+            background-color: red;
+        }
+
+        .texto2 p {
+            background-color: blue;
+        }
+
+        .texto3 p {
+            background-color: yellow;
+        }
+
+        .gridThree {
+            display: grid;
+            grid-template-rows: 1fr 3fr;
+            width: 500px;
+            height: 300px;
+        }
+
+        .texto p {
+            background-color: aquamarine;
+        }
+
+        .imagen-ice img {
+            width: 100%;
+        }
+        
+        .imagen-ice img {
+            background-color: bisque;
+            width: 500px;
+            height: 225px;
+        }
+
+        .gridFour {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            width: 500px;
+            background-color: green;
+        }
+
+        #identificacion {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .gridFive {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            width: 500px;
+            background-color: gray;
+        }
+
+        #identificacion2 img {
+            grid-template-columns: 2fr 1fr;
+            width: 100%;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .gridSix {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            width: 500px;
+            background-color: #D3D3D3;
+        }
+
+        .parrafo {
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+            
+    </style>
+    
+</head>
+
+<body>
+    <div class="gridOne">
+        <div class="parrafo1">
+            <p>Hello World</p>
+        </div>
+
+        <div class="parrafo2">
+            <p>My Fantastic Content</p>
+        </div>
+    </div>
+
+    <div class="gridTwo">
+        <div class="texto1">
+            <p>Texto fondo rojo</p>
+        </div>
+
+        <div class="texto2">
+            <p>Texto fondo azul</p>
+        </div>
+
+        <div class="texto3">
+            <p>Texto fondo amarillo</p>
+        </div>
+    </div>
+
+    <div class="gridThree">
+        
+        <div class="texto">
+            <p>Texto para la grid tres</p>
+        </div>
+
+        <div class="imagen-ice">
+            <img src="images/kelly-sikkema-hSPVuakrJqs-unsplash.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="gridFour">
+        <div class="">
+            <p>Este es el cuarto ejercicio de cuadrícula</p>
+        </div>
+
+        <div id="identificacion">
+
+            <p>Mi texto de la izquierda</p>
+
+            <p>Mi texto de la derecha</p>
+
+        </div>
+    </div>
+
+    <div class="gridFive">
+        <div class="texto5">
+            <p>Este es el quinto ejercicio de cuadrícula</p>
+        </div>
+
+        <div id="identificacion2">
+
+            <img src="images/mira-kemppainen-qC117ahi-mE-unsplash.jpg" alt=""> 
+            
+            <img src="images/josh-hild-_TuI8tZHlk4-unsplash.jpg" alt="">
+
+        </div>
+    </div>
+
+    <div class="gridSix">
+
+            <i class="fa-solid fa-globe"></i>
+
+        <div class="parrafo">
+            <p>Lato es la fuente de google que quiero</p>
+        </div>
+    </div>
+    
+</body>
+
+</html>
